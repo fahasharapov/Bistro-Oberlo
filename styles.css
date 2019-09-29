@@ -1,0 +1,164 @@
+/******************************/
+/* BASIC SETUP */
+/******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+
+/******************************/
+/* HEADER */
+/******************************/
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(img/main-image.jpg);
+    height: 100vh; /* viewport height of the header element */
+    background-size: cover; /* cover vs. contain || cover is to cover the entire element's background area */
+    background-position: center; /* positions the background image on the center */
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 220%;
+    backface-visibility: hidden;
+
+}
+
+h1.h1-top {
+    animation-name: moveToRight;
+    animation-duration: 2s;
+}
+
+h1.h1-bottom {
+   margin-bottom: 20px; /* So that the buttons are further below the h1 text */
+    animation-name: moveToLeft;
+    animation-duration: 2s;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes moveToRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+
+@keyframes moveToLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
+/******************************/
+/* BUTTONS */
+/******************************/
+
+
+.btn:link,
+.btn:visited {
+    font-weight: 350;
+    text-decoration: none;
+    color: #efab6e;
+    border: 2px solid #e67e22;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #e67e22;
+    color: white;
+    transition: border-color 0.5s, border 0.5s, color 0.3s; 
+}
+
+
+.btn-1:link,
+.btn-1:visited {
+    color: white;
+    border: 2px solid #e67e22;
+    background-color: #cf6d17;
+}
+
+.btn-1:hover,
+.btn-1:active {
+    color: white;
+    background-color: #e67e22;
+}
+
+/******************************/
+/* LOGO & NAVIGATION */
+/******************************/
+
+
+.logo {
+    float: left;
+    width: auto;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.main-nav {
+    float: right;
+    margin-top: 40px;
+}
+
+.main-nav li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #f1c40f;
+    transition: 0.2s;
+    color: #f1c40f;
+}
