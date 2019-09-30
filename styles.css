@@ -82,6 +82,30 @@ h1.h1-bottom {
     }
 }
 
+
+h2 {
+
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+h2::after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    margin: 0 auto; /* puts the element in the center of the page */
+    margin-top: 30px;
+}
+
+
 /******************************/
 /* BUTTONS */
 /******************************/
@@ -161,4 +185,19 @@ h1.h1-bottom {
     border-bottom: 2px solid #f1c40f;
     transition: 0.2s;
     color: #f1c40f;
+}
+
+
+/******************************/
+/* REUSABLE COMPONENTS */
+/******************************/
+
+.row {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+section {
+    padding: 80px 0px;
 }
