@@ -105,6 +105,17 @@ h2::after {
     margin-top: 30px;
 }
 
+h3 {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 10px;
+    font-size: 110%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
 
 /******************************/
 /* BUTTONS */
@@ -200,4 +211,18 @@ h2::after {
 
 section {
     padding: 80px 0px;
+}
+
+
+/******************************/
+/* ICONS */
+/******************************/
+
+
+.icon-big {
+    font-size: 300%;
+    color: #e67e22;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
