@@ -27,7 +27,9 @@ header {
     height: 100vh; /* viewport height of the header element */
     background-size: cover; /* cover vs. contain || cover is to cover the entire element's background area */
     background-position: center; /* positions the background image on the center */
+
 }
+
 
 h1 {
     color: white;
@@ -39,23 +41,30 @@ h1 {
 
 }
 
-h1.h1-top {
+
+.h1-top {
     animation-name: moveToRight;
     animation-duration: 2s;
+    margin: 0px;
 }
 
-h1.h1-bottom {
-   margin-bottom: 20px; /* So that the buttons are further below the h1 text */
+.h1-bottom {
+    margin-top: 10px;
+    margin-bottom: 30px; /* So that the buttons are further below the h1 text */
     animation-name: moveToLeft;
     animation-duration: 2s;
+
 }
+
 
 .hero-text {
     position: absolute;
     top: 50%;
-    right: 15%;
+    left: 30%;
     transform: translate(-50%, -50%);
 }
+
+
 
 @keyframes moveToRight {
     0% {
