@@ -224,6 +224,18 @@ section {
 
 
 /******************************/
+/* FEATURES */
+/******************************/
+
+.long-copy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+
+/******************************/
 /* ICONS */
 /******************************/
 
@@ -234,4 +246,46 @@ section {
     display: block;
     margin-top: 15px;
     margin-bottom: 5px;
+}
+
+
+/******************************/
+/* MEALS SECTION */
+/******************************/
+
+.meals-section {
+    padding-top: 20px;
+}
+
+
+.meals-showcase {
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;    
+}
+
+
+.mealsBox {
+    width: 100%;
+    margin: 0;
+    overflow: hidden; /* when an image gets bigger than its container, it overflows it. To avoid overflow, use overflow: hidden; */
+    background: #000;
+}
+
+.mealsBox img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15); /* makes the image bigger 1.5% */
+    transition: 0.5s;
+
+}
+
+.mealsBox img:hover {
+    transform: scale(1.03);
+    opacity: 1;
 }
