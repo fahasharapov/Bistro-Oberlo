@@ -17,6 +17,19 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
+
 
 /******************************/
 /* HEADER */
@@ -213,13 +226,14 @@ h3 {
 /******************************/
 
 .row {
+    padding-top: 80px;
     width: 1140px;
     margin: 0 auto;
 }
 
 
 section {
-    padding: 80px 0px;
+padding: 0px 0px 00px 0px;
 }
 
 
@@ -288,4 +302,22 @@ section {
 .mealsBox img:hover {
     transform: scale(1.03);
     opacity: 1;
+}
+
+
+/******************************/
+/* HOW IT WORKS SECTION */
+/******************************/
+
+
+.numb-circle {
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    font-size: 180%;
+    color: #e67e22;
 }
