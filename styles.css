@@ -41,6 +41,7 @@ header {
     background-size: cover; /* cover vs. contain || cover is to cover the entire element's background area */
     background-position: center; /* positions the background image on the center */
     margin-bottom: 80px;
+    background-attachment: fixed;
 
 }
 
@@ -415,6 +416,52 @@ a:active {
     color: #555;
     border-bottom: 1px solid #e67e22;
 
+}
+
+
+/******************************/
+/* TESTIMONIALS */
+/******************************/
+
+.customer-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.customer-testimonials .row {
+    padding-top: 60px;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 140%;
+    position: relative;
+}
+
+blockquote:before {
+    content: "\201C";
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+cite img {
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
 
 /* START - TEMPORARY CLASSES */
