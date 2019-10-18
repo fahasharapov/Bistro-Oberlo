@@ -40,6 +40,7 @@ header {
     height: 100vh; /* viewport height of the header element */
     background-size: cover; /* cover vs. contain || cover is to cover the entire element's background area */
     background-position: center; /* positions the background image on the center */
+    margin-bottom: 80px;
 
 }
 
@@ -105,8 +106,8 @@ h1 {
 }
 
 
-h2 {
 
+h2 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -226,14 +227,13 @@ h3 {
 /******************************/
 
 .row {
-    padding-top: 80px;
     width: 1140px;
     margin: 0 auto;
 }
 
 
 section {
-padding: 0px 0px 00px 0px;
+padding: 0px 0px 80px 0px;
 }
 
 
@@ -294,7 +294,7 @@ padding: 0px 0px 00px 0px;
     opacity: 0.7;
     width: 100%;
     height: auto;
-    transform: scale(1.15); /* makes the image bigger 1.5% */
+    transform: scale(1.15); /* makes the image bigger 1.15% */
     transition: 0.5s;
 
 }
@@ -309,6 +309,25 @@ padding: 0px 0px 00px 0px;
 /* HOW IT WORKS SECTION */
 /******************************/
 
+
+.steps-box {
+    margin-top: 30px;
+}
+
+.steps-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+}
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 3%;
+}
+
+
+.app-screen {
+    width: 40%;
+}
 
 .numb-circle {
     border: 2px solid #e67e22;
