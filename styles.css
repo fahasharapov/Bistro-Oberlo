@@ -218,7 +218,6 @@ h3 {
 .main-nav li a:active {
     border-bottom: 2px solid #f1c40f;
     transition: 0.2s;
-    color: #f1c40f;
 }
 
 
@@ -243,7 +242,7 @@ padding: 0px 0px 80px 0px;
 
 .long-copy {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     width: 65%;
     margin: 0 auto;
 }
@@ -268,7 +267,7 @@ padding: 0px 0px 80px 0px;
 /******************************/
 
 .meals-section {
-    padding-top: 20px;
+    background: #f4f4f4;
 }
 
 
@@ -310,33 +309,56 @@ padding: 0px 0px 80px 0px;
 /******************************/
 
 
-.steps-box {
-    margin-top: 30px;
+.section-steps {
+    background-color: #f4f4f4;
 }
 
 .steps-box:first-child {
     text-align: right;
     padding-right: 3%;
+    margin-top: 30px;
 }
 
 .steps-box:last-child {
     text-align: left;
     padding-left: 3%;
+    margin-top: 70px;
 }
+
 
 
 .app-screen {
     width: 40%;
 }
 
-.numb-circle {
+
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step div {
+    color: #e67e22;
     border: 2px solid #e67e22;
+    display: inline-block;
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    display: inline-block;
-    float: left;
     text-align: center;
     font-size: 180%;
-    color: #e67e22;
+    float: left;
+    margin-right: 10px;
 }
+
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 20px;
+}
+
+/* START - TEMPORARY CLASSES */
+
+
+
+/* FINISH - TEMPORARY CLASSES */
