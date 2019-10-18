@@ -357,6 +357,26 @@ padding: 0px 0px 80px 0px;
     margin-right: 20px;
 }
 
+
+
+/******************************/
+/* CITY SECTION */
+/******************************/
+
+
+.section-cities {
+    margin-top: 80px;
+}
+
+
+.box img {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
 /* START - TEMPORARY CLASSES */
 
 
