@@ -236,6 +236,8 @@ padding: 0px 0px 80px 0px;
 }
 
 
+
+
 /******************************/
 /* FEATURES */
 /******************************/
@@ -261,6 +263,18 @@ padding: 0px 0px 80px 0px;
     margin-bottom: 5px;
 }
 
+
+.icon-small {
+    color: #e67e22;
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 120%;
+    margin-right: 5px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -4px;
+}
 
 /******************************/
 /* MEALS SECTION */
@@ -357,6 +371,10 @@ padding: 0px 0px 80px 0px;
     margin-right: 20px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
 
 
 /******************************/
@@ -376,6 +394,28 @@ padding: 0px 0px 80px 0px;
 }
 
 
+
+
+/******************************/
+/* LINKS */
+/******************************/
+
+
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid #e67e22;
+
+}
 
 /* START - TEMPORARY CLASSES */
 
