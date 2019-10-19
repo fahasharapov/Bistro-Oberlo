@@ -424,7 +424,7 @@ a:active {
 /******************************/
 
 .customer-testimonials {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/back-customers.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -464,8 +464,22 @@ cite img {
     vertical-align: middle;
 }
 
+
+
+/******************************/
+/* PLANS SECTION */
+/******************************/
+
+.section-plans {
+    padding-top: 80px;
+    background: #f4f4f4;
+}
+
+
+
+
+
+
 /* START - TEMPORARY CLASSES */
-
-
 
 /* FINISH - TEMPORARY CLASSES */
