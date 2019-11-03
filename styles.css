@@ -51,7 +51,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 300;
-    font-size: 220%;
+    font-size: 240%;
     backface-visibility: hidden;
 
 }
@@ -475,7 +475,45 @@ cite img {
     background: #f4f4f4;
 }
 
+.plan-box {
+    background: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
 
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.plan-price {
+    color: #e67e22;
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
 
 
 
