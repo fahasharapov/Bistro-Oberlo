@@ -477,19 +477,26 @@ cite img {
 
 .plan-box {
     background: #fff;
-    border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    box-shadow: 0 10px 2px #efefef
 }
 
+
 .plan-box div {
-    padding: 15px;
+    padding: 25px;
     border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #fcfcfc;
 }
 
 .plan-box div:last-child {
     text-align: center;
-    margin-top: 5px;
+    border-bottom: none;
 }
 
 .plan-price {
