@@ -525,6 +525,31 @@ cite img {
 
 
 
+/******************************/
+/* CONTACT US SECTION */
+/******************************/
+
+.section-form {
+    padding-top: 80px;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input,
+select,
+textarea {
+    border-radius: 3px;
+    width: 100%;
+    padding: 7px;
+}
+
+
+
+
+
 /* START - TEMPORARY CLASSES */
 
 /* FINISH - TEMPORARY CLASSES */
