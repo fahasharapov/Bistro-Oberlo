@@ -531,18 +531,30 @@ cite img {
 
 .section-form {
     padding-top: 80px;
+    border: 0px solid black;
 }
 
 .contact-form {
     width: 60%;
     margin: 0 auto;
+    border: 0px solid black;
 }
 
-input,
+.col {
+    border: 0px solid black;
+}
+
+.labelName {
+    list-style: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=submit],
 select,
 textarea {
-    border-radius: 3px;
     width: 100%;
+    border-radius: 3px;
     padding: 7px;
 }
 
