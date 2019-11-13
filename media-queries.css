@@ -1,0 +1,33 @@
+
+
+
+/* SMALL PHONES 0 - 480 px */
+
+@media only screen and (max-width: 480px) {
+	
+}
+
+
+/* SMALL PHONES TO SMALL TABLETS 481 - 767 px */
+
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+/* SMALL TABLETS TO BIG TABLETS 768 - 1023 px */
+
+@media only screen and (max-width: 1023px) {
+	
+}
+
+
+/* SMALL TABLETS TO BIG TABLETS 1024 -  px */
+
+@media only screen and (max-width: 1200px) {
+	.hero-text {
+		width: 100%;
+		padding: 0 2%;
+	}
+}
+
