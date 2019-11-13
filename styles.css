@@ -15,6 +15,7 @@ html {
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
 }
 
 .clearfix {
@@ -668,6 +669,37 @@ footer p {
 }
 
 
+
+/******************************/
+/* SCROLL TO TOP */
+/******************************/
+
+
+#myBtn {
+    
+  border: 1px solid black;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #D8D6D6; /* Set a background color */
+  color: #000; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 20px; /* Rounded corners */
+  font-size: 150%; /* Increase font size */
+  text-align: center;
+  padding-top: 10px;
+  transition: color 0.5s;
+}
+
+#myBtn:hover {
+  background-color: #e67e22; /* Add a dark-grey background on hover */
+  color: #fff;
+}
 
 
 /* START - TEMPORARY CLASSES */
