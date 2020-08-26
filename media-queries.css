@@ -1,5 +1,51 @@
 
 
+@media only screen and (max-width: 1469px) {
+	.hero-text {
+		font-size: 80%;
+	}
+	
+}
+
+
+
+/* SMALL TABLETS TO BIG TABLETS 1024 -  px */
+
+@media only screen and (max-width: 1206px) {
+	.hero-text {
+		width: 100%;
+		font-size: 80%;
+		padding-left: 25px;
+	}
+
+	.row {padding: 0 15%;}
+
+	.plan-box ul li{
+		font-size: 80%;
+	}
+}
+
+
+
+/* SMALL TABLETS TO BIG TABLETS 768 - 1023 px */
+
+@media only screen and (max-width: 1023px) {
+	body {font-size: 18px;}
+
+	.steps-box:first-child {text-align: center;}
+
+
+}
+
+
+
+/* SMALL PHONES TO SMALL TABLETS 481 - 767 px */
+
+@media only screen and (max-width: 767px) {
+
+}
+
+
 
 /* SMALL PHONES 0 - 480 px */
 
@@ -8,26 +54,10 @@
 }
 
 
-/* SMALL PHONES TO SMALL TABLETS 481 - 767 px */
-
-@media only screen and (max-width: 767px) {
-	
-}
 
 
-/* SMALL TABLETS TO BIG TABLETS 768 - 1023 px */
-
-@media only screen and (max-width: 1023px) {
-	
-}
 
 
-/* SMALL TABLETS TO BIG TABLETS 1024 -  px */
 
-@media only screen and (max-width: 1200px) {
-	.hero-text {
-		width: 100%;
-		padding: 0 2%;
-	}
-}
+
 
