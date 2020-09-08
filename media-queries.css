@@ -191,6 +191,40 @@
 		margin-top: -10px;
 	}
 
+
+	.plan-price{
+		font-size: 40px;
+		text-align: center;
+	}
+
+	.plan-price-meal{
+		text-align: center;
+	}
+
+	.plan-box{
+		border: 1px solid #c1c1c1;
+		margin-bottom: 10px;
+	}
+
+	.plan-box div {
+		margin: 10px;
+		padding: 1px;
+	}
+
+	.plan-box div ul {
+		margin-bottom: 10px;
+	}
+
+	.plan-box div ul li {
+		width: 100%;
+	}
+
+	div.sign-btn {
+		/*border: 1px solid blue;*/
+		overflow: auto;
+		padding: 15px;
+	}
+
 }
 
 
