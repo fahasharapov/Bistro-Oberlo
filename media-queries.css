@@ -163,6 +163,16 @@
 	}
 
 
+	.img-wrap{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+
+	.img-wrap img {
+		width: 130px;
+	}
+
 }
 
 
