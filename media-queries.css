@@ -183,6 +183,13 @@
 		font-size: 80%;
 	}
 
+	cite{
+		margin-bottom: 80px;
+	}
+
+	cite img{
+		margin-top: -10px;
+	}
 
 }
 
