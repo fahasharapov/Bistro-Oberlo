@@ -597,49 +597,66 @@ input[type=checkbox] {
 /* FOOTER SECTION */
 /******************************/
 
-footer {
-    background: #333;
-    padding: 40px;
+
+
+.footer-wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.footer-nav {
+
+.foot-links,
+.foot-soc-links{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.foot-links li,
+.foot-soc-links li {
     list-style: none;
-    float: left;
+    text-decoration: none;
+    padding: 0.5em;
 }
 
-.footer-nav li,
-.social-links li {
-    display: inline-block;
-    margin-right: 20px;    
+.foot-soc-links {
+    list-style: none;
+    float: right;
+    font-size: 170%;
 }
 
-.footer-nav li a:link,
-.footer-nav li a:visited,
-.social-links li a:link,
-.social-links li a:visited {
+
+
+.foot-links li a:link,
+.foot-links li a:visited,
+.foot-soc-links li a:link,
+.foot-soc-links li a:visited {
     text-decoration: none;
     border: 0;
     color: #888;
     transition: color 0.5s;
 }
 
-.footer-nav li a:hover,
-.footer-nav li a:active {
+.foot-links li a:hover,
+.foot-links li a:active {
     color: #fff;
     text-decoration: none;
 }
 
 
-.footer-nav li:last-child,
-.social-links li:last-child {
+.foot-links li:last-child,
+.foot-soc-links li:last-child {
     margin-right: 0;
 }
 
-.social-links {
-    list-style: none;
-    float: right;
-    font-size: 170%;
+
+
+footer {
+    background: #333;
+    padding: 40px;
 }
+
 
 footer p {
     text-align: center;
@@ -714,6 +731,39 @@ footer p {
 }
 
 
-/* START - TEMPORARY CLASSES */
 
-/* FINISH - TEMPORARY CLASSES */
+#contact-form{
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+
+
+#contact-form label {
+    line-height: 2.7em;
+}
+
+
+#contact-form textarea{
+    min-height: 100px;
+    font-size: 14px;
+}
+
+.input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+#submit-btn{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+

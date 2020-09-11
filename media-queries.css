@@ -230,6 +230,24 @@
 		padding: 15px;
 	}
 
+
+
+
+
+
+.footer-wrap{
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.foot-links li a {
+	font-size: 13px;
+}
+
+.foot-soc-links{
+	font-size: 150%;
+}
+
 }
 
 
